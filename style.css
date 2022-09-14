@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.allButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  width: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+/* για τα βελάκια του bitcoin input field */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
